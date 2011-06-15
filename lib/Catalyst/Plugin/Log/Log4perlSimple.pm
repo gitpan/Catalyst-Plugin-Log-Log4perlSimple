@@ -1,6 +1,6 @@
 package Catalyst::Plugin::Log::Log4perlSimple;
 BEGIN {
-  $Catalyst::Plugin::Log::Log4perlSimple::VERSION = '0.1';
+  $Catalyst::Plugin::Log::Log4perlSimple::VERSION = '0.2';
 }
 
 # ABSTRACT: Simple Log4perl plugin for Catalyst

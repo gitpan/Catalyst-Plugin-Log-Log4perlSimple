@@ -1,6 +1,6 @@
 package Catalyst::Log::Log4perlSimple;
 BEGIN {
-  $Catalyst::Log::Log4perlSimple::VERSION = '0.1';
+  $Catalyst::Log::Log4perlSimple::VERSION = '0.2';
 }
 
 use 5.010;
@@ -86,6 +86,7 @@ has file_output     => ( is => 'rw', isa => 'Maybe[Str]', default => undef, trig
             mode     => 'append',
         );
         $self->proxy->add_appender($appender);
+        $self->file_appender($appender);
     }
 });
 has screen_appender => (

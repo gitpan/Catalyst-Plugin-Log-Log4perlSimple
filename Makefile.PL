@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     'Log::Log4perl' => '1.26',
     'Moose' => '0.94'
   },
-  'VERSION' => '0.1',
+  'VERSION' => '0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }

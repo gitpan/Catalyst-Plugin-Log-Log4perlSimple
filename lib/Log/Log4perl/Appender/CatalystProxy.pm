@@ -1,6 +1,6 @@
 package Log::Log4perl::Appender::CatalystProxy;
 BEGIN {
-  $Log::Log4perl::Appender::CatalystProxy::VERSION = '0.1';
+  $Log::Log4perl::Appender::CatalystProxy::VERSION = '0.2';
 }
 
 our @ISA = qw(Log::Log4perl::Appender);
